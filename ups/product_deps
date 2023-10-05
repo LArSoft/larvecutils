@@ -87,7 +87,7 @@
 #>  define_pythonpath
 ####################################
 parent		larvecutils
-defaultqual	e20
+defaultqual	e26
 ####################################
 
 ####################################
@@ -249,9 +249,7 @@ libdir	fq_dir		lib
 ####################################
 product		version		qual	flags		<table_format=2>
 clang		v14_0_6c	c14
-clang		v7_0_0		c7
 gcc		v12_1_0		e26
-gcc		v9_3_0		e20
 cetmodules	v3_20_00	-	only_for_build
 end_product_list
 ####################################
