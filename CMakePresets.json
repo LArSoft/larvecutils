@@ -13,22 +13,6 @@
             "CMAKE_CXX_STANDARD_REQUIRED" : {
                "type" : "BOOL",
                "value" : "ON"
-            },
-            "larvecutils_ADD_ARCH_DIRS_INIT" : {
-               "type" : "INTERNAL",
-               "value" : "LIBRARY_DIR"
-            },
-            "larvecutils_ADD_NOARCH_DIRS_INIT" : {
-               "type" : "INTERNAL",
-               "value" : "INCLUDE_DIR"
-            },
-            "larvecutils_INCLUDE_DIR_INIT" : {
-               "type" : "STRING",
-               "value" : "include"
-            },
-            "larvecutils_LIBRARY_DIR_INIT" : {
-               "type" : "STRING",
-               "value" : "lib"
             }
          },
          "description" : "Configuration settings translated from ups/product_deps",
