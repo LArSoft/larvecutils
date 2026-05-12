@@ -247,6 +247,7 @@ defaultqual	e26
 product		version		qual	flags		<table_format=2>
 clang		v14_0_6c	c14
 gcc		v12_1_0		e26
+gcc		v13_1_0		e28
 cetmodules	v3_27_04	-	only_for_build
 end_product_list
 ####################################
@@ -305,12 +306,10 @@ end_product_list
 qualifier	clang	gcc	compiler	notes
 c14:debug	-nq-	-	clang
 c14:prof	-nq-	-	clang
-c7:debug	-nq-	-	clang
-c7:prof		-nq-	-	clang
 e26:debug	-	-nq-	gcc
 e26:prof	-	-nq-	gcc
-e20:debug	-	-nq-	gcc
-e20:prof	-	-nq-	gcc
+e28:debug	-	-nq-	gcc
+e28:prof	-	-nq-	gcc
 end_qualifier_list
 ####################################
 
